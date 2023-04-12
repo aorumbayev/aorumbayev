@@ -1,35 +1,56 @@
-<h1 align="center">About me</h1>
-<h3 align="center">"All you need is README.md" (c)</h3>
+<h1 align="center"><strong> About </strong></h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aorumbayev" alt="aorumbayev" /> </p>
+-   💻 I’m currently working on backend infrastructure for [Teams & Skype](https://microsoft.com) at Microsoft
 
-- 🔭 I’m currently working on [IBM Watson AIOps](https://www.ibm.com/products/watson-aiops)
+-   🐝 I previously worked on [Watson AIOps](https://www.ibm.com/products/watson-aiops) at IBM
 
-- 🌱 I’m currently learning **flutter**
+-   🎙 In my free time I play around with blockchain development on [Algorand](https://www.algorand.com/) and maintain a [podcast](https://anchor.fm/awesomealgo) on the same topic.
 
-- 👯 I’m looking to collaborate on [Khagan](https://github.com/aorumbayev/khagan)
+-   👨‍💻 All of my projects are available at [https://github.com/aorumbayev](https://github.com/aorumbayev)
 
-- 👨‍💻 All of my projects are available at [https://github.com/aorumbayev](https://github.com/aorumbayev)
+-   💬 Ask me about **microservices & cloud, iOS development, semantic web, software systems design or algorand development**
 
-- 📝 I occasionally write articles on [https://medium.com/@a_orumbayev](https://medium.com/@a_orumbayev)
-
-- 💬 Ask me about **objective-c, c++, swift, iOS, python, react or cloud dev**
-
-- 📫 How to reach me **aorumbayev at pm . me**
+-   📫 How to reach me **aorumbayev at pm . me**
 
 ---
 
-#### Things I use/used:
-
-<p align="left"><img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/swift/swift-original-wordmark.svg" alt="swift" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-<img src="https://devicons.github.io/devicon/devicon.git/icons/webpack/webpack-original.svg" alt="webpack" width="40" height="40"/></p>
+<br />
+<h1 align="center"><strong> Some of my projects </strong></h1>
+<p align="center">
+  <a href="https://github.com/aorumbayev/awesome-algorand">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=awesome-algorand&theme=dark" alt="aorumbayev" />
+  </a>
+  <a href="https://github.com/Subtopia-Algo/subtopia-js">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Subtopia-Algo&repo=subtopia-js&theme=radical" alt="aorumbayev" />
+  </a>
+  <a href="https://github.com/AlgoWorldNFT/algoworld-swapper">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=AlgoWorldNFT&repo=algoworld-swapper&theme=merko" alt="aorumbayev" />
+  </a>
+  <a href="https://github.com/aorumbayev/awesomealgo-hooks">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=awesomealgo-hooks&theme=gruvbox" alt="aorumbayev" />
+  </a>
+  <a href="https://github.com/aorumbayev/tinybar">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=tinybar&theme=tokyonight" alt="aorumbayev" />
+  </a>
+  <a href="https://github.com/aorumbayev/linkedpipes-storage">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=linkedpipes-storage&theme=cobalt" alt="aorumbayev" />
+  </a>
+  <a href="https://github.com/algorealm/algorealm-cli">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=algorealm&repo=algorealm-cli&theme=maroongold" alt="aorumbayev" />
+  </a>
+  <a href="https://github.com/aorumbayev/algoping">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=algoping&theme=highcontrast" alt="aorumbayev" />
+  </a>
+</p>
 
 ---
 
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aorumbayev&layout=compact&hide=html" alt="aorumbayev" />
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=aorumbayev&show_icons=true" alt="aorumbayev" />
+<br />
+<h1 align="center"><strong> Stats </strong></h1>
+<p align="center">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=aorumbayev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="aorumbayev" />
+</p>
 
 <p align="center">
-<a href="https://linkedin.com/in/aorumbayev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="aorumbayev" height="30" width="30" /></a>
-<a href="https://medium.com/@a_orumbayev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@a_orumbayev" height="30" width="30" /></a>
+  <img src="https://komarev.com/ghpvc/?username=aorumbayev" alt="aorumbayev" />
 </p>
