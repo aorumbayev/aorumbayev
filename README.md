@@ -1,19 +1,3 @@
-<h1 align="center"><strong> About </strong></h1>
-
--   💻 I’m currently working on backend infrastructure for [Teams & Skype](https://microsoft.com) at Microsoft
-
--   🐝 I previously worked on [Watson AIOps](https://www.ibm.com/products/watson-aiops) at IBM
-
--   🎙 In my free time I play around with blockchain development on [Algorand](https://www.algorand.com/) and maintain a [podcast](https://anchor.fm/awesomealgo) on the same topic.
-
--   👨‍💻 All of my projects are available at [https://github.com/aorumbayev](https://github.com/aorumbayev)
-
--   💬 Ask me about **microservices & cloud, iOS development, semantic web, software systems design or algorand development**
-
--   📫 How to reach me **aorumbayev at pm . me**
-
----
-
 <br />
 <h1 align="center"><strong> Some of my projects </strong></h1>
 <p align="center">
