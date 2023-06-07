@@ -4,7 +4,7 @@
   <a href="https://github.com/aorumbayev/awesome-algorand">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=awesome-algorand&theme=dark" alt="aorumbayev" />
   </a>
-  <a href="https://github.com/algorealm/autogpt4all">
+  <a href="https://github.com/aorumbayev/autogpt4all">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=autogpt4all&theme=maroongold" alt="aorumbayev" />
   </a>
   <a href="https://github.com/Subtopia-Algo/subtopia-js">
