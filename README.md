@@ -4,6 +4,9 @@
   <a href="https://github.com/aorumbayev/awesome-algorand">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=awesome-algorand&theme=dark" alt="aorumbayev" />
   </a>
+  <a href="https://github.com/algorealm/autogpt4all">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=autogpt4all&theme=maroongold" alt="aorumbayev" />
+  </a>
   <a href="https://github.com/Subtopia-Algo/subtopia-js">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Subtopia-Algo&repo=subtopia-js&theme=radical" alt="aorumbayev" />
   </a>
@@ -18,9 +21,6 @@
   </a>
   <a href="https://github.com/aorumbayev/linkedpipes-storage">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=linkedpipes-storage&theme=cobalt" alt="aorumbayev" />
-  </a>
-  <a href="https://github.com/algorealm/algorealm-cli">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=algorealm&repo=algorealm-cli&theme=maroongold" alt="aorumbayev" />
   </a>
   <a href="https://github.com/aorumbayev/algoping">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aorumbayev&repo=algoping&theme=highcontrast" alt="aorumbayev" />
