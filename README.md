@@ -1,7 +1,9 @@
 <p align="center">
-<img align="center" src="https://profilestats-navy.vercel.app/api?username=aorumbayev&show_icons=true&theme=nord&include_all_commits=true&count_private=true" alt="aorumbayev" />
+<img align="center" src="assets/stats.svg" alt="aorumbayev" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aorumbayev" alt="aorumbayev" />
 </p>
+
+<!-- assets/stats.svg is regenerated every Monday by .github/workflows/stats.yml -->

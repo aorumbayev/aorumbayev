@@ -1,0 +1,48 @@
+name: stats
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check out the renderer
+        uses: actions/checkout@v7
+        with:
+          repository: anuraghazra/github-readme-stats
+          ref: 54a7985aeefda00d5eadb55b80c17c7f976c37d2
+          path: .stats-src
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - run: npm ci --omit=dev --ignore-scripts
+        working-directory: .stats-src
+
+      - run: node scripts/generate-stats.mjs
+        env:
+          PAT_1: ${{ secrets.PAT_1 }}
+
+      - name: Commit the card
+        run: |
+          if git diff --quiet -- assets/stats.svg; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh stats card" -- assets/stats.svg
+          git push
