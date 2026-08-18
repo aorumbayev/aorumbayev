@@ -24,7 +24,7 @@ if (/Something went wrong/i.test(svg)) {
   throw new Error(`renderer returned an error card:\n${svg}`);
 }
 if (!stats.totalCommits && !stats.totalStars) {
-  throw new Error("stats came back empty - check the PAT_1 secret");
+  throw new Error("stats came back empty - check the GH_STATS_PAT secret");
 }
 
 await mkdir(dirname(resolve(OUT)), { recursive: true });

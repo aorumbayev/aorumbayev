@@ -32,9 +32,10 @@ jobs:
       - run: npm ci --omit=dev --ignore-scripts
         working-directory: .stats-src
 
+      # The renderer reads the token from PAT_1, so the secret is mapped onto it.
       - run: node scripts/generate-stats.mjs
         env:
-          PAT_1: ${{ secrets.PAT_1 }}
+          PAT_1: ${{ secrets.GH_STATS_PAT }}
 
       # The card lives on the unprotected stats branch, so GITHUB_TOKEN can push
       # it without a bypass on master's branch protection.
