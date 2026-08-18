@@ -1,0 +1,65 @@
+name: stats
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Both checkouts drop the git credential so the renderer, which runs
+      # third-party code with the stats token in scope, finds none on disk.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Check out the renderer
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: anuraghazra/github-readme-stats
+          ref: 54a7985aeefda00d5eadb55b80c17c7f976c37d2
+          path: .stats-src
+          persist-credentials: false
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+
+      - run: npm ci --omit=dev --ignore-scripts
+        working-directory: .stats-src
+
+      # The renderer reads the token from PAT_1, so the secret is mapped onto it.
+      - run: node scripts/generate-stats.mjs
+        env:
+          PAT_1: ${{ secrets.GH_STATS_PAT }}
+
+      # The card lives on the unprotected stats branch, so GITHUB_TOKEN can push
+      # it without a bypass on master's branch protection.
+      - name: Publish to the stats branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch --depth=1 "$remote" stats
+          git worktree add -B stats published FETCH_HEAD
+          cp stats.svg published/stats.svg
+          cd published
+          git add stats.svg
+          if git diff --cached --quiet; then
+            echo "card unchanged"
+            exit 0
+          fi
+          git commit -m "chore: refresh stats card"
+          git push "$remote" stats
