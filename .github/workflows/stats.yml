@@ -36,13 +36,20 @@ jobs:
         env:
           PAT_1: ${{ secrets.PAT_1 }}
 
-      - name: Commit the card
+      # The card lives on the unprotected stats branch, so GITHUB_TOKEN can push
+      # it without a bypass on master's branch protection.
+      - name: Publish to the stats branch
         run: |
-          if git diff --quiet -- assets/stats.svg; then
-            echo "no change"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh stats card" -- assets/stats.svg
-          git push
+          git fetch --depth=1 origin stats
+          git worktree add -B stats published FETCH_HEAD
+          cp stats.svg published/stats.svg
+          cd published
+          git add stats.svg
+          if git diff --cached --quiet; then
+            echo "card unchanged"
+            exit 0
+          fi
+          git commit -m "chore: refresh stats card"
+          git push origin stats

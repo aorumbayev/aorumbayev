@@ -1,9 +1,9 @@
 <p align="center">
-<img align="center" src="assets/stats.svg" alt="aorumbayev" />
+<img align="center" src="https://raw.githubusercontent.com/aorumbayev/aorumbayev/stats/stats.svg" alt="aorumbayev" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aorumbayev" alt="aorumbayev" />
 </p>
 
-<!-- assets/stats.svg is regenerated every Monday by .github/workflows/stats.yml -->
+<!-- The card is rendered every Monday by .github/workflows/stats.yml and committed to the stats branch. -->

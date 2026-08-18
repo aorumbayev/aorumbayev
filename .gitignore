@@ -1,2 +1,4 @@
 .stats-src/
 node_modules/
+published/
+stats.svg

@@ -6,7 +6,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 
 const SRC = process.env.GRS_SRC ?? ".stats-src";
-const OUT = process.env.OUT ?? "assets/stats.svg";
+const OUT = process.env.OUT ?? "stats.svg";
 const USERNAME = process.env.STATS_USERNAME ?? "aorumbayev";
 
 const { fetchStats } = await import(resolve(SRC, "src/fetchers/stats.js"));
